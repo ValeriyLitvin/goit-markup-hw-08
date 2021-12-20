@@ -1,0 +1,37 @@
+.advantage {
+   background: var(--first-title-color);
+   padding-top: 94px;
+   padding-bottom: 94px;
+   &__list {
+      display: flex;
+   }
+   &__item:not(:last-child) {
+      margin-right: 30px;
+   }
+   &__cell {
+      width: 270px;
+      height: 120px;
+      background: #f5f4fa;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+   }
+   &__name {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--first-text-color);
+      margin-bottom: 20px;
+   }
+   &__p {
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: #757575;
+   }
+}
