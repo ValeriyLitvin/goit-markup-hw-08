@@ -1,6 +1,9 @@
 .present {
    background-color: var(--first-title-color);
    padding-bottom: 94px;
+   @media screen and (max-width: 1199px) {
+      display: none;
+   }
    &__basic-name {
       font-style: normal;
       font-weight: 700;

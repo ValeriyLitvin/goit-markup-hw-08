@@ -5,6 +5,9 @@
 .header__container {
    display: flex;
    align-items: center;
+   @media screen and (min-width: 320px) and (max-width: 767px) {
+      display: none;
+   }
 }
 
 .header__nav {
@@ -115,5 +118,15 @@
    .header-contact__link:hover &,
    .header-contact__link:focus & {
       fill: var(--akcent-color);
+   }
+}
+
+.mobile-menu {
+   @media screen and (min-width: 320px) and (max-width: 767px) {
+      justify-content: center;
+      margin: 0 auto;
+   }
+   @media screen and (min-width: 768px) {
+      display: none;
    }
 }
