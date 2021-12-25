@@ -17,13 +17,6 @@
       <!--=================     header    =================-->
 
       <header class="header">
-         <div class="mobile-menu">
-            <button class="mobile-menu__button">
-               <svg class="mobile-menu__icon" width="24" height="16">
-                  <use href="./img/icons.svg#icon-3_line"></use>
-               </svg>
-            </button>
-         </div>
          <div class="container header__container">
             <nav class="header__nav">
                <a href="./" class="header-logo__link link">
@@ -69,7 +62,77 @@
                </li>
             </ul>
          </div>
-         
+         <div class="mobile-header">
+            <a href="./" class="mobile-header__logo-link link">
+               <span class="mobile-header__logo-akcent">Web</span>Studio
+            </a>
+            <button type="button" class="mobile-header__open">
+               <svg class="mobile-header__icon" width="40" height="40">
+                  <use href="./img/icons.svg#icon-menu_40px"></use>
+               </svg>
+            </button>
+         </div>
+         <div class="mobile-menu">
+            <button type="button" class="mobile-menu__close">
+               <svg class="mobile-menu__close-icon" width="40" height="40">
+                  <use href="./img/icons.svg#icon-X"></use>
+               </svg>
+            </button>
+            <div class="mobile-menu__div">
+               <ul class="list mobile-menu__list">
+                  <li class="mobile-menu__item">
+                     <a
+                        href="./index.html"
+                        class="link mobile-menu__link actual"
+                        >Студия</a
+                     >
+                  </li>
+                  <li class="mobile-menu__item">
+                     <a href="./portfolio.html" class="link mobile-menu__link"
+                        >Портфолио</a
+                     >
+                  </li>
+                  <li class="mobile-menu__item">
+                     <a href="" class="link mobile-menu__link">Контакты</a>
+                  </li>
+               </ul>
+               <ul class="list mobile-menu__list mobile-nav__list">
+                  <li class="mobile-nav__item mobile-menu__item">
+                     <a href="mailto:info@devstudio.com"
+                        class="link mobile-nav__link">
+                        info@devstudio.com
+                     </a>
+                  </li>
+                  <li class="mobile-nav__item mobile-menu__item">
+                     <a href="tel:+380961111111" class="link mobile-nav__link">
+                        +38 096 111 11 11</a
+                     >
+                  </li>
+               </ul>
+               <ul class="mobile-menu-social">
+                  <li class="list mobile-menu-social__item">
+                     <a href="./" class="mobile-menu-social__link">
+                        Instagram
+                     </a>
+                  </li>
+                  <li class="list mobile-menu-social__item">
+                     <a href="./" class="mobile-menu-social__link">
+                        Twitter
+                     </a>
+                  </li>
+                  <li class="list mobile-menu-social__item">
+                     <a href="./" class="mobile-menu-social__link">
+                        Facebook
+                     </a>
+                  </li>
+                  <li class="list mobile-menu-social__item">
+                     <a href="./" class="mobile-menu-social__link">
+                        LinkedIn
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
       </header>
 
       <!--=================    hero   =================-->
@@ -460,50 +523,50 @@
          <section class="customers">
             <div class="container">
                <h2 class="customers__heading">Постоянные клиенты</h2>
-               <ul class="customers__list list">
-                  <li class="customers__item">
-                     <a href="" class="customers__link">
-                        <svg class="customers__icon" width="106" height="60">
-                           <use href="./img/icons.svg#icon-Logo-1"></use>
-                        </svg>
-                     </a>
-                  </li>
-                  <li class="customers__item">
-                     <a href="" class="customers__link">
-                        <svg class="customers__icon" width="106" height="60">
-                           <use href="./img/icons.svg#icon-Logo-2"></use>
-                        </svg>
-                     </a>
-                  </li>
-                  <li class="customers__item">
-                     <a href="" class="customers__link">
-                        <svg class="customers__icon" width="106" height="60">
-                           <use href="./img/icons.svg#icon-Logo-3"></use>
-                        </svg>
-                     </a>
-                  </li>
-                  <li class="customers__item">
-                     <a href="" class="customers__link">
-                        <svg class="customers__icon" width="106" height="60">
-                           <use href="./img/icons.svg#icon-Logo-4"></use>
-                        </svg>
-                     </a>
-                  </li>
-                  <li class="customers__item">
-                     <a href="" class="customers__link">
-                        <svg class="customers__icon" width="106" height="60">
-                           <use href="./img/icons.svg#icon-Logo-5"></use>
-                        </svg>
-                     </a>
-                  </li>
-                  <li class="customers__item">
-                     <a href="" class="customers__link">
-                        <svg class="customers__icon" width="106" height="60">
-                           <use href="./img/icons.svg#icon-Logo-6"></use>
-                        </svg>
-                     </a>
-                  </li>
-               </ul>
+                  <ul class="customers__list list">
+                     <li class="customers__item">
+                        <a href="" class="customers__link">
+                           <svg class="customers__icon" width="106" height="60">
+                              <use href="./img/icons.svg#icon-Logo-1"></use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="customers__item">
+                        <a href="" class="customers__link">
+                           <svg class="customers__icon" width="106" height="60">
+                              <use href="./img/icons.svg#icon-Logo-2"></use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="customers__item">
+                        <a href="" class="customers__link">
+                           <svg class="customers__icon" width="106" height="60">
+                              <use href="./img/icons.svg#icon-Logo-3"></use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="customers__item">
+                        <a href="" class="customers__link">
+                           <svg class="customers__icon" width="106" height="60">
+                              <use href="./img/icons.svg#icon-Logo-4"></use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="customers__item">
+                        <a href="" class="customers__link">
+                           <svg class="customers__icon" width="106" height="60">
+                              <use href="./img/icons.svg#icon-Logo-5"></use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="customers__item">
+                        <a href="" class="customers__link">
+                           <svg class="customers__icon" width="106" height="60">
+                              <use href="./img/icons.svg#icon-Logo-6"></use>
+                           </svg>
+                        </a>
+                     </li>
+                  </ul>
             </div>
          </section>
       </main>
