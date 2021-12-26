@@ -62,6 +62,9 @@
                </li>
             </ul>
          </div>
+
+         <!--=================     mobile-header    =================-->
+
          <div class="mobile-header">
             <a href="./" class="mobile-header__logo-link link">
                <span class="mobile-header__logo-akcent">Web</span>Studio
@@ -72,67 +75,88 @@
                </svg>
             </button>
          </div>
-         <div class="mobile-menu">
-            <button type="button" class="mobile-menu__close">
-               <svg class="mobile-menu__close-icon" width="40" height="40">
-                  <use href="./img/icons.svg#icon-X"></use>
-               </svg>
-            </button>
-            <div class="mobile-menu__div">
-               <ul class="list mobile-menu__list">
-                  <li class="mobile-menu__item">
-                     <a
-                        href="./index.html"
-                        class="link mobile-menu__link actual"
-                        >Студия</a
+         <section class="mobile-menu-header is-hidden">
+            <div class="container-mobile">
+               <div class="mobile-div-top">
+                  <button type="button" class="mobile-menu-header__close">
+                     <svg
+                        class="mobile-menu-header__close-icon"
+                        width="40"
+                        height="40"
                      >
-                  </li>
-                  <li class="mobile-menu__item">
-                     <a href="./portfolio.html" class="link mobile-menu__link"
-                        >Портфолио</a
-                     >
-                  </li>
-                  <li class="mobile-menu__item">
-                     <a href="" class="link mobile-menu__link">Контакты</a>
-                  </li>
-               </ul>
-               <ul class="list mobile-menu__list mobile-nav__list">
-                  <li class="mobile-nav__item mobile-menu__item">
-                     <a href="mailto:info@devstudio.com"
-                        class="link mobile-nav__link">
-                        info@devstudio.com
-                     </a>
-                  </li>
-                  <li class="mobile-nav__item mobile-menu__item">
-                     <a href="tel:+380961111111" class="link mobile-nav__link">
-                        +38 096 111 11 11</a
-                     >
-                  </li>
-               </ul>
-               <ul class="mobile-menu-social">
-                  <li class="list mobile-menu-social__item">
-                     <a href="./" class="mobile-menu-social__link">
-                        Instagram
-                     </a>
-                  </li>
-                  <li class="list mobile-menu-social__item">
-                     <a href="./" class="mobile-menu-social__link">
-                        Twitter
-                     </a>
-                  </li>
-                  <li class="list mobile-menu-social__item">
-                     <a href="./" class="mobile-menu-social__link">
-                        Facebook
-                     </a>
-                  </li>
-                  <li class="list mobile-menu-social__item">
-                     <a href="./" class="mobile-menu-social__link">
-                        LinkedIn
-                     </a>
-                  </li>
-               </ul>
+                        <use href="./img/icons.svg#icon-X"></use>
+                     </svg>
+                  </button>
+                  <ul class="list mobile-menu-header__list">
+                     <li class="mobile-menu-header__item">
+                        <a
+                           href="./index.html"
+                           class="link mobile-menu-header__link actual"
+                           >Студия</a
+                        >
+                     </li>
+                     <li class="mobile-menu-header__item">
+                        <a
+                           href="./portfolio.html"
+                           class="link mobile-menu-header__link"
+                           >Портфолио</a
+                        >
+                     </li>
+                     <li class="mobile-menu-header__item">
+                        <a href="" class="link mobile-menu-header__link"
+                           >Контакты</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+               <div class="modile-div-bottom">
+                  <ul class="list mobile-menu-header__list mobile-nav">
+                     <li class="mobile-nav__item mobile-nav__item-phone">
+                        <a
+                           href="tel:+380961111111"
+                           class="
+                              link
+                              mobile-menu-header__link
+                              mobile-nav__link-phone
+                           "
+                        >
+                           +38 096 111 11 11</a
+                        >
+                     </li>
+                     <li class="mobile-nav__item">
+                        <a
+                           href="mailto:info@devstudio.com"
+                           class="link mobile-nav__link"
+                        >
+                           info@devstudio.com
+                        </a>
+                     </li>
+                  </ul>
+                  <ul class="mobile-menu-social">
+                     <li class="list mobile-menu-social__item">
+                        <a href="./" class="mobile-menu-social__link link">
+                           Instagram
+                        </a>
+                     </li>
+                     <li class="list mobile-menu-social__item">
+                        <a href="./" class="mobile-menu-social__link link">
+                           Twitter
+                        </a>
+                     </li>
+                     <li class="list mobile-menu-social__item">
+                        <a href="./" class="mobile-menu-social__link link">
+                           Facebook
+                        </a>
+                     </li>
+                     <li class="list mobile-menu-social__item">
+                        <a href="./" class="mobile-menu-social__link link">
+                           LinkedIn
+                        </a>
+                     </li>
+                  </ul>
+               </div>
             </div>
-         </div>
+         </section>
       </header>
 
       <!--=================    hero   =================-->
@@ -148,6 +172,7 @@
                <button type="button" class="hero__button" data-modal-open>
                   Заказать услугу
                </button>
+            </div>
          </section>
 
          <!--=================    our advantage     =================-->
@@ -215,7 +240,7 @@
                <ul class="list present__list">
                   <li class="present__item">
                      <img
-                        src="./img/box-1.jpg"
+                        src="./img/presentation/box-1.jpg"
                         alt="набор текста"
                         width="370"
                         height="294"
@@ -224,7 +249,7 @@
                   </li>
                   <li class="present__item">
                      <img
-                        src="./img/box-2.jpg"
+                        src="./img/presentation/box-2.jpg"
                         alt="оптимизация под мобильное устройство"
                         width="370"
                         height="294"
@@ -233,7 +258,7 @@
                   </li>
                   <li class="present__item">
                      <img
-                        src="./img/box-3.jpg"
+                        src="./img/presentation/box-3.jpg"
                         alt="работа на планшете"
                         width="370"
                         height="294"
@@ -251,12 +276,33 @@
                <h2 class="comand__heading">Наша команда</h2>
                <ul class="list comand__list">
                   <li class="comand__item">
-                     <img
-                        src="./img/img1.jpg"
-                        alt="Игорь Демьяненко"
-                        width="270"
-                        height="260"
-                     />
+                     <picture>
+                        <source
+                           srcset="
+                              ./img/our_comand/img1-desk.jpg    1x,
+                              ./img/our_comand/img1-desk-2x.jpg 2x
+                           "
+                           media="(min-width: 1200px)"
+                        />
+                        <source
+                           srcset="
+                              ./img/our_comand/img1-tab.jpg    1x,
+                              ./img/our_comand/img1-tab-2x.jpg 2x
+                           "
+                           media="(min-width: 768px)"
+                        />
+                        <source
+                           srcset="
+                              ./img/our_comand/img1-phone.jpg    1x,
+                              ./img/our_comand/img1-phone-2x.jpg 2x
+                           "
+                           media="(min-width: 320px)"
+                        />
+                        <img
+                           src="./img/our_comand/img1-phone.jpg"
+                           alt="Игорь Демьяненко"
+                        />
+                     </picture>
                      <div class="comand__box">
                         <h3 class="comand__name">Игорь Демьяненко</h3>
                         <p lang="en" class="comand__prof">Product Designer</p>
@@ -317,13 +363,34 @@
                      </div>
                   </li>
                   <li class="comand__item">
-                     <img
-                        src="./img/img2.jpg"
-                        lang="en"
-                        alt="Ольга Репина"
-                        width="270"
-                        height="260"
-                     />
+                     <picture>
+                        <source
+                           srcset="
+                              ./img/our_comand/img2-desk.jpg    1x,
+                              ./img/our_comand/img2-desk-2x.jpg 2x
+                           "
+                           media="(min-width: 1200px)"
+                        />
+                        <source
+                           srcset="
+                              ./img/our_comand/img2-tab.jpg    1x,
+                              ./img/our_comand/img2-tab-2x.jpg 2x
+                           "
+                           media="(min-width: 768px)"
+                        />
+                        <source
+                           srcset="
+                              ./img/our_comand/img2-phone.jpg    1x,
+                              ./img/our_comand/img2-phone-2x.jpg 2x
+                           "
+                           media="(min-width: 320px)"
+                        />
+                        <img
+                           src="./img/our_comand/img2-phone.jpg"
+                           alt="Ольга Репина"
+                        />
+                     </picture>
+
                      <div class="comand__box">
                         <h3 class="comand__name">Ольга Репина</h3>
                         <p lang="en" class="comand__prof">Frontend Developer</p>
@@ -384,12 +451,33 @@
                      </div>
                   </li>
                   <li class="comand__item">
-                     <img
-                        src="./img/img3.jpg"
-                        alt="Николай Тарасов"
-                        width="270"
-                        height="260"
-                     />
+                     <picture>
+                        <source
+                           srcset="
+                              ./img/our_comand/img3-desk.jpg    1x,
+                              ./img/our_comand/img3-desk-2x.jpg 2x
+                           "
+                           media="(min-width: 1200px)"
+                        />
+                        <source
+                           srcset="
+                              ./img/our_comand/img3-tab.jpg    1x,
+                              ./img/our_comand/img3-tab-2x.jpg 2x
+                           "
+                           media="(min-width: 768px)"
+                        />
+                        <source
+                           srcset="
+                              ./img/our_comand/img3-phone.jpg    1x,
+                              ./img/our_comand/img3-phone-2x.jpg 2x
+                           "
+                           media="(min-width: 320px)"
+                        />
+                        <img
+                           src="./img/our_comand/img3-phone.jpg"
+                           alt="Николай Тарасов"
+                        />
+                     </picture>
                      <div class="comand__box">
                         <h3 class="comand__name">Николай Тарасов</h3>
                         <p lang="en" class="comand__prof">Marketing</p>
@@ -450,12 +538,33 @@
                      </div>
                   </li>
                   <li class="comand__item">
-                     <img
-                        src="./img/img4.jpg"
-                        alt="Михаил Ермаков"
-                        width="270"
-                        height="260"
-                     />
+                     <picture>
+                        <source
+                           srcset="
+                              ./img/our_comand/img4-desk.jpg    1x,
+                              ./img/our_comand/img4-desk-2x.jpg 2x
+                           "
+                           media="(min-width: 1200px)"
+                        />
+                        <source
+                           srcset="
+                              ./img/our_comand/img4-tab.jpg    1x,
+                              ./img/our_comand/img4-tab-2x.jpg 2x
+                           "
+                           media="(min-width: 768px)"
+                        />
+                        <source
+                           srcset="
+                              ./img/our_comand/img4-phone.jpg    1x,
+                              ./img/our_comand/img4-phone-2x.jpg 2x
+                           "
+                           media="(min-width: 320px)"
+                        />
+                        <img
+                           src="./img/our_comand/img4-phone.jpg"
+                           alt="Михаил Ермаков"
+                        />
+                     </picture>
                      <div class="comand__box">
                         <h3 class="comand__name">Михаил Ермаков</h3>
                         <p lang="en" class="comand__prof">UI Designer</p>
@@ -523,50 +632,50 @@
          <section class="customers">
             <div class="container">
                <h2 class="customers__heading">Постоянные клиенты</h2>
-                  <ul class="customers__list list">
-                     <li class="customers__item">
-                        <a href="" class="customers__link">
-                           <svg class="customers__icon" width="106" height="60">
-                              <use href="./img/icons.svg#icon-Logo-1"></use>
-                           </svg>
-                        </a>
-                     </li>
-                     <li class="customers__item">
-                        <a href="" class="customers__link">
-                           <svg class="customers__icon" width="106" height="60">
-                              <use href="./img/icons.svg#icon-Logo-2"></use>
-                           </svg>
-                        </a>
-                     </li>
-                     <li class="customers__item">
-                        <a href="" class="customers__link">
-                           <svg class="customers__icon" width="106" height="60">
-                              <use href="./img/icons.svg#icon-Logo-3"></use>
-                           </svg>
-                        </a>
-                     </li>
-                     <li class="customers__item">
-                        <a href="" class="customers__link">
-                           <svg class="customers__icon" width="106" height="60">
-                              <use href="./img/icons.svg#icon-Logo-4"></use>
-                           </svg>
-                        </a>
-                     </li>
-                     <li class="customers__item">
-                        <a href="" class="customers__link">
-                           <svg class="customers__icon" width="106" height="60">
-                              <use href="./img/icons.svg#icon-Logo-5"></use>
-                           </svg>
-                        </a>
-                     </li>
-                     <li class="customers__item">
-                        <a href="" class="customers__link">
-                           <svg class="customers__icon" width="106" height="60">
-                              <use href="./img/icons.svg#icon-Logo-6"></use>
-                           </svg>
-                        </a>
-                     </li>
-                  </ul>
+               <ul class="customers__list list">
+                  <li class="customers__item">
+                     <a href="" class="customers__link">
+                        <svg class="customers__icon" width="106" height="60">
+                           <use href="./img/icons.svg#icon-Logo-1"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="customers__item">
+                     <a href="" class="customers__link">
+                        <svg class="customers__icon" width="106" height="60">
+                           <use href="./img/icons.svg#icon-Logo-2"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="customers__item">
+                     <a href="" class="customers__link">
+                        <svg class="customers__icon" width="106" height="60">
+                           <use href="./img/icons.svg#icon-Logo-3"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="customers__item">
+                     <a href="" class="customers__link">
+                        <svg class="customers__icon" width="106" height="60">
+                           <use href="./img/icons.svg#icon-Logo-4"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="customers__item">
+                     <a href="" class="customers__link">
+                        <svg class="customers__icon" width="106" height="60">
+                           <use href="./img/icons.svg#icon-Logo-5"></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="customers__item">
+                     <a href="" class="customers__link">
+                        <svg class="customers__icon" width="106" height="60">
+                           <use href="./img/icons.svg#icon-Logo-6"></use>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
             </div>
          </section>
       </main>
@@ -600,7 +709,9 @@
                            >
                         </li>
                         <li class="address__item">
-                           <a href="tel:+380961111111" class="link adress__contact"
+                           <a
+                              href="tel:+380961111111"
+                              class="link adress__contact"
                               >+38 096 111 11 11</a
                            >
                         </li>
@@ -612,7 +723,11 @@
                   <ul class="footer-social__list">
                      <li class="list footer-social__item">
                         <a href="./" class="footer-social__link">
-                           <svg class="footer-social__icon" width="20" height="20">
+                           <svg
+                              class="footer-social__icon"
+                              width="20"
+                              height="20"
+                           >
                               <use
                                  href="./img/icons.svg#icon-instagram-footer"
                               ></use>
@@ -621,7 +736,11 @@
                      </li>
                      <li class="list footer-social__item">
                         <a href="./" class="footer-social__link">
-                           <svg class="footer-social__icon" width="20" height="20">
+                           <svg
+                              class="footer-social__icon"
+                              width="20"
+                              height="20"
+                           >
                               <use
                                  href="./img/icons.svg#icon-twitter-footer"
                               ></use>
@@ -630,7 +749,11 @@
                      </li>
                      <li class="list footer-social__item">
                         <a href="./" class="footer-social__link">
-                           <svg class="footer-social__icon" width="20" height="20">
+                           <svg
+                              class="footer-social__icon"
+                              width="20"
+                              height="20"
+                           >
                               <use
                                  href="./img/icons.svg#icon-facebook-footer"
                               ></use>
@@ -639,7 +762,11 @@
                      </li>
                      <li class="list footer-social__item">
                         <a href="./" class="footer-social__link">
-                           <svg class="footer-social__icon" width="20" height="20">
+                           <svg
+                              class="footer-social__icon"
+                              width="20"
+                              height="20"
+                           >
                               <use href="./img/icons.svg#icon-linkedin"></use>
                            </svg>
                         </a>
@@ -759,6 +886,7 @@
             </div>
          </div>
       </div>
+      <script src="./js/menu.js"></script>
       <script src="./js/modal.js"></script>
    </body>
 </html>
