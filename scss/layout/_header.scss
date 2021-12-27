@@ -6,7 +6,6 @@
    display: flex;
    padding: 10px 15px;
    align-items: center;
-
    transition: transform 250ms;
    @media screen and (min-width: 768px) {
       display: none;
@@ -95,11 +94,6 @@
       line-height: 1.16;
       letter-spacing: 0.02em;
       color: var(--second-text-color);
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      &:hover,
-      &:focus {
-         color: var(--akcent-color);
-      }
    }
    &__item-phone {
       margin-bottom: 32px;
@@ -108,7 +102,7 @@
       font-size: 34px;
       line-height: 1.18;
       letter-spacing: 0.02em;
-      color: var(--second-text-color);
+      color: var(--akcent-color);
    }
 }
 
