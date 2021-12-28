@@ -239,30 +239,54 @@
                <h2 class="present__basic-name">Чем мы занимаемся</h2>
                <ul class="list present__list">
                   <li class="present__item">
-                     <img
-                        src="./img/presentation/box-1.jpg"
-                        alt="набор текста"
-                        width="370"
-                        height="294"
-                     />
+                     <picture>
+                        <source
+                           srcset="
+                              ./img/presentation/box-1.jpg,
+                              ./img/presentation/box-1-2x.jpg 2x
+                           "
+                           media="(min-width: 1200px)"
+                        />
+                        <img
+                           src="./img/presentation/box-1.jpg"
+                           alt="набор
+                        текста"
+                        />
+                     </picture>
                      <h3 class="present__name">Десктопные приложения</h3>
                   </li>
                   <li class="present__item">
-                     <img
-                        src="./img/presentation/box-2.jpg"
-                        alt="оптимизация под мобильное устройство"
-                        width="370"
-                        height="294"
-                     />
+                     <picture>
+                        <source
+                           srcset="
+                              ./img/presentation/box-2.jpg,
+                              ./img/presentation/box-2-2x.jpg 2x
+                           "
+                           media="(min-width: 1200px)"
+                        />
+                        <img
+                           src="./img/presentation/box-2.jpg"
+                           alt="набор
+                        текста"
+                        />
+                     </picture>
                      <h3 class="present__name">Мобильные приложения</h3>
                   </li>
                   <li class="present__item">
-                     <img
-                        src="./img/presentation/box-3.jpg"
-                        alt="работа на планшете"
-                        width="370"
-                        height="294"
-                     />
+                     <picture>
+                        <source
+                           srcset="
+                              ./img/presentation/box-3.jpg,
+                              ./img/presentation/box-3-2x.jpg 2x
+                           "
+                           media="(min-width: 1200px)"
+                        />
+                        <img
+                           src="./img/presentation/box-3.jpg"
+                           alt="набор
+                        текста"
+                        />
+                     </picture>
                      <h3 class="present__name">Дизайнерские решения</h3>
                   </li>
                </ul>
@@ -390,7 +414,6 @@
                            alt="Ольга Репина"
                         />
                      </picture>
-
                      <div class="comand__box">
                         <h3 class="comand__name">Ольга Репина</h3>
                         <p lang="en" class="comand__prof">Frontend Developer</p>
@@ -627,6 +650,7 @@
                </ul>
             </div>
          </section>
+
          <!--=================    regular customers   =================-->
 
          <section class="customers">
