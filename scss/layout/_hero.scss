@@ -7,7 +7,7 @@
    margin: 0 auto;
    padding-top: 118px;
    padding-bottom: 118px;
-   @media screen and (max-width: 479px) {
+   @media screen and (max-width: 480px) {
       background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
@@ -23,7 +23,7 @@
             url(../img/hero/hero-mobile-2x.jpg);
       }
    }
-   @media screen and (min-width: 480px) and (max-width: 768px) {
+   @media screen and (min-width: 481px) and (max-width: 768px) {
       background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
@@ -39,7 +39,7 @@
             url(../img/hero/hero-tab-2x.jpg);
       }
    }
-   @media screen and (min-width: 768px) {
+   @media screen and (min-width: 769px) {
       background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
