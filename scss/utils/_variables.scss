@@ -11,6 +11,10 @@
    --hero-text-color: #ffffff;
 }
 
+a {
+   text-decoration: none;
+}
+
 .visually-hidden {
    position: absolute;
    clip: rect(0 0 0 0);
